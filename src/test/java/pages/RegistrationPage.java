@@ -136,7 +136,6 @@ public class RegistrationPage {
     }
     @Step("Нажать кнопку Подать заявку")
     public RegistrationPage clickApply() {
-        sleep(1000);
         applyButton.click();
         return this;
     }
@@ -146,13 +145,13 @@ public class RegistrationPage {
         return this;
     }
 
-    public RegistrationPage verifyResult1() {
+    public RegistrationPage verifyResultTitlePageOne() {
         $(".form__steps").lastChild().preceding(0).find(".form__step-title")
                 .shouldHave(text("Образование и навыки"));
         return this;
     }
 
-    public RegistrationPage verifyResult2() {
+    public RegistrationPage verifyResultTitlePageTwo() {
         $(".form__steps").lastChild().find(".form__step-title")
                 .shouldHave(text("Достижения и опыт"));
         return this;

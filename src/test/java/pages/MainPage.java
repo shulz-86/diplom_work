@@ -14,7 +14,7 @@ import static com.codeborne.selenide.Selenide.open;
 
 public class MainPage {
     private NavMenu menu = new NavMenu();
-    private SelenideElement logo = $(".main__header-logo").$(".g-image"),
+    private SelenideElement logo = $(".main__header-logo-img2"),
             pageTitle = $(".title-xl");
 
     @Step("открыть страницу")

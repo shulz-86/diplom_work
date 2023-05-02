@@ -13,7 +13,7 @@ public class WebDriverProvider {
         Configuration.browser = WebDriverProvider.config.getBrowserName();
         Configuration.browserVersion = WebDriverProvider.config.getBrowserVersion();
         Configuration.holdBrowserOpen = true;
-        Configuration.timeout = 5000;
+        Configuration.timeout = 6000;
         Configuration.remote = config.getRemoteUrl();
 
 

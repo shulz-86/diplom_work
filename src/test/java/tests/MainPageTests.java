@@ -10,7 +10,7 @@ import org.junit.jupiter.api.Test;
 import static helpers.TestsDataRshb.menuElementsCount;
 @Owner("Olshanskaya")
 @Tag("UITests")
-public class ManePageTests extends TestBaseRshb {
+public class MainPageTests extends TestBaseRshb {
     TestsDataRshb testsData = new TestsDataRshb();
     @BeforeEach
     void openMainPage() {
